@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace NAssignment_4.Models
+{
+    public class Game
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public int Publicationyear { get; set; }
+        public int MinimumPlayers { get; set; }
+        public int MaximumPlayers { get; set; }
+
+    }
+}
